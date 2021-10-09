@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menuuu{
+    border: 2px solid black;
+    height: 96vh;
+width: 97vw;
+margin: 12px 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+    width: 87vw;
+    height: 89vh;
+    background-color: #f7f7f7;
+    border: 2px solid wheat;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    
+
+}
+.box1{
+    background-color: #2b1e16;
+    color: #e0cbc1;
+   
+    margin: 12px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
